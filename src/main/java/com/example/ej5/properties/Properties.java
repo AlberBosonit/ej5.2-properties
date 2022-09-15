@@ -12,7 +12,7 @@ public class Properties {
     @Value("${my.number}")
     private int myNumber;
 
-    @Value("${new.property}")
+    @Value("${new.property:new.property no tiene valor}")
     private String newProperty;
 
     public String getGreeting() {
